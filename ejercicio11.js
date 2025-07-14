@@ -2,7 +2,22 @@
 
 const mixedElements = [6, 1, 'Marvel', 1, 'hamburguesa', '10', 'Prometeo', 8, 'Hola mundo'];
 
-function averageWord(list) {
+function averageWord(list){
+  let total = 0;
+
+  for (const element of list) {
+    if (typeof element === "number") {
+      total += element;
+    }else{
+      total += element.length;
+    }
+  }
+  console.log(total/list.length);
+}
+
+averageWord(mixedElements)
+
+/*function averageWord(list) {
   let total = 0;
 
   for(let i = 0; i < list.length; i++){
@@ -18,3 +33,4 @@ function averageWord(list) {
 }
 
 console.log(averageWord(mixedElements));
+*/
