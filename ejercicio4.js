@@ -13,6 +13,7 @@ const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 // console.log(aldeanos[0])
 
 //4.4 - Dale la vuelta a este array.
+
 //aldeanos.reverse();
 // console.log(aldeanos.reverse())
 
