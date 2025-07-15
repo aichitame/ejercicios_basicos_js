@@ -12,4 +12,5 @@ for (const place of placesToTravel){
         placesToTravel.splice(placesToTravel.indexOf(place), 1)
     }
 }
+
 console.log(placesToTravel);
