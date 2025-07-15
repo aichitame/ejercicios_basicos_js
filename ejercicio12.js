@@ -11,6 +11,7 @@ const duplicates = [
     'pasta',
     'soda'
   ];
+  
   function removeDuplicates(list) {
    const uniques = [];
    for (const item of list) {
