@@ -15,4 +15,4 @@ for (const toy of toys){
        newToys.push(toy);
     }
 }
-console.log(newToys); 
+console.log(newToys);
