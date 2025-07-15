@@ -6,27 +6,47 @@ const words = [
     'eat',
     'sleep',
     'code',
+    'party',
     'enjoy',
+    'walk',
     'sleep',
     'code',
     'enjoy',
+    'party',
     'sleep',
     'code',
     'party',
     'walk'
   ];
 
+
   function repeatCounter(list) {
-        const count = {}
+        const result = {}
     
-        list.forEach(word => {
+       /*FORMA 1 (que no me queda muy clara)
+       
+       list.forEach(word => {
             if(count[word]) {
                 count[word]++
             } else {
                 count[word] = 1
             }
-    
+
         })
         return count;
     }
-    console.log(repeatCounter(words))
+    console.log(repeatCounter(words))*/ 
+
+    //FORMA 2
+
+    for (const word of list){
+        if (result[word]) {
+            result[word]++;
+        } else{
+            result[word] = 1;
+        }
+    }
+    return result;
+}
+
+console.log(repeatCounter(words))
