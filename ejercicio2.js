@@ -10,7 +10,7 @@ const nombre = "Leia";
 const apellido = "Organa";
 const edad = 20;
 
-//console.log("Soy " + nombre + " " + apellido + ", " + "tengo " + edad + " años y soy una princesa de Alderaan");
+//console.log("Soy " + nombre + " " + apellido + ", " + "tengo " + edad + " años y soy una princesa de Alderan");
 
 //1.3
 
